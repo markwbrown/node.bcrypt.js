@@ -1,4 +1,5 @@
 # node.bcrypt.js
+This is bcrypt@0.8.7. You shouldn't be using this. Only published as a bridge to getting some old passwords hashes brought up to date
 
 [![Join the chat at https://gitter.im/ncb000gt/node.bcrypt.js](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ncb000gt/node.bcrypt.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 

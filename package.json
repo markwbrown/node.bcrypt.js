@@ -1,5 +1,5 @@
 {
-  "name": "bcrypt",
+  "name": "@brightproductions/bcrypt",
   "description": "A bcrypt library for NodeJS.",
   "keywords": [
     "bcrypt",
@@ -18,18 +18,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ncb000gt/node.bcrypt.js.git"
+    "url": "git+https://github.com/markwbrown/node.bcrypt.js.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ncb000gt/node.bcrypt.js/issues"
+    "url": "https://github.com/markwbrown/node.bcrypt.js/issues"
   },
   "scripts": {
-    "test": "node-gyp configure build && nodeunit test"
+    "test": "node-gyp configure build && nodeunit test",
+    "install": "node-gyp rebuild"
   },
   "dependencies": {
-    "bindings": "1.2.1",
-    "nan": "2.3.5"
+    "@brightproductions/bindings": "1.2.1",
+    "@brightproductions/nan": "2.3.5"
   },
   "devDependencies": {
     "nodeunit": "~0.9.1"
@@ -39,15 +40,21 @@
     "Van Nguyen <the.gol.effect@gmail.com> (https://github.com/thegoleffect)",
     "David Trejo <david@dtrejo.com> (https://github.com/dtrejo)",
     "Ben Glow <glen.low@pixelglow.com> (https://github.com/pixelglow)",
-    "NewITFarmer.com <> (https://github.com/newitfarmer)",
+    "NewITFarmer.com (https://github.com/newitfarmer)",
     "Alfred Westerveld <alfredwesterveld@gmail.com> (https://github.com/alfredwesterveld)",
     "Vincent Côté-Roy <vincentcr@gmail.com> (https://github.com/vincentcr)",
     "Lloyd Hilaiel <lloyd@hilaiel.com> (https://github.com/lloyd)",
     "Roman Shtylman <shtylman@gmail.com> (https://github.com/shtylman)",
     "Vadim Graboys <dimva13@gmail.com> (https://github.com/vadimg)",
-    "Ben Noorduis <> (https://github.com/bnoordhuis)",
+    "Ben Noorduis (https://github.com/bnoordhuis)",
     "Nate Rajlich <nathan@tootallnate.net> (https://github.com/tootallnate)",
     "Sean McArthur <sean.monstar@gmail.com> (https://github.com/seanmonstar)",
     "Fanie Oosthuysen <fanie.oosthuysen@gmail.com> (https://github.com/weareu)"
-  ]
+  ],
+  "gypfile": true,
+  "homepage": "https://github.com/markwbrown/node.bcrypt.js#readme",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  }
 }
