@@ -66,7 +66,7 @@ npm install bcrypt
 ### async (recommended)
 
 ```javascript
-var bcrypt = require('bcrypt');
+var bcrypt = require('@brightproductions/bcrypt');
 const saltRounds = 10;
 const myPlaintextPassword = 's0/\/\P4$$w0rD';
 const someOtherPlaintextPassword = 'not_bacon';
@@ -110,7 +110,7 @@ bcrypt.compare(someOtherPlaintextPassword, hash, function(err, res) {
 ### sync
 
 ```javascript
-var bcrypt = require('bcrypt');
+var bcrypt = require('@brightproductions/bcrypt');
 const saltRounds = 10;
 const myPlaintextPassword = 's0/\/\P4$$w0rD';
 const someOtherPlaintextPassword = 'not_bacon';

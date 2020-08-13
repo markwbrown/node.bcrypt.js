@@ -1,6 +1,6 @@
 'use strict';
 
-var bindings = require('bindings')('bcrypt_lib');
+var bindings = require('@brightproductions/bindings')('bcrypt_lib');
 var crypto = require('crypto');
 
 /// generate a salt (sync)

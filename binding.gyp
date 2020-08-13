@@ -8,7 +8,7 @@
         'src/bcrypt_node.cc'
       ],
       'include_dirs' : [
-          "<!(node -e \"require('nan')\")"
+          "<!(node -e \"require('@brightproductions/nan')\")"
       ],
       'conditions': [
         [ 'OS=="win"', {
