@@ -3,3 +3,5 @@ build
 *.node
 *.sw[a-z]
 node_modules
+.idea/
+.DS_Store
